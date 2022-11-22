@@ -1,27 +1,24 @@
 {
-	"AS_Button_d5a6a41a9348465da73237294d0f53b0": {
-		"id": "AS_Button_d5a6a41a9348465da73237294d0f53b0",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"language": "js",
-		"actions": [
-			{
-				"id": "NAVIGATE_TO_FORM__ide_onClick_e04fd6c111014e7c981d9fc576d4bf7c",
-				"type": "NAVIGATE_TO_FORM",
-				"formId": "FormWorkerThread",
-				"formKUID": "ef951da3b91444b7bbd6eaeea1810afa",
-				"mappings": {},
-				"mappingsOrder": [],
-				"callbackType": null,
-				"enableMappingEditor": true,
-				"package": "",
-				"isCustomInput": false
-			}
-		]
-	}
+    "AS_Button_d5a6a41a9348465da73237294d0f53b0": {
+        "id": "AS_Button_d5a6a41a9348465da73237294d0f53b0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_e04fd6c111014e7c981d9fc576d4bf7c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormWorkerThread",
+            "formKUID": "ef951da3b91444b7bbd6eaeea1810afa",
+            "projectName": "MathStrLogWTNtwk",
+            "mappings": {},
+            "mappingsOrder": [],
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
 }

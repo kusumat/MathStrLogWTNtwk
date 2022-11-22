@@ -1,45 +1,40 @@
 {
-	"AS_Button_d5e93031e4b9425f9c93937796cbdcc9": {
-		"id": "AS_Button_d5e93031e4b9425f9c93937796cbdcc9",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
-			"name": "FormNetworkApi"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET_ide_onClick_g40f20151e22429ca6723afe8715be8f",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "kony.net.clearCookies(window.location.origin);\nthis.view.LabelOutput.text = \"Cleared cookies successfully\";",
-				"callbackType": null
-			},
-			{
-				"id": "SET_FORM_WIDGET_PROPERTY___fe53891ea05548e896eec55e36ad4ec7",
-				"type": "SET_WIDGET_PROPERTY",
-				"itemType": "FORM",
-				"itemId": "FormNetworkApi",
-				"widgetId": "btnClearCookies",
-				"propertyName": "skin",
-				"propertyValue": "cnfNetApi",
-				"itemKUID": "a349b8e0b47b4038bdb2397d702f7a1d",
-				"widgetKUID": "b3ea74bf34c14a44ad6eff1eea10fadc",
-				"skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
-				"isSkinProperty": true,
-				"wType": "Button",
-				"currentTheme": "defaultTheme",
-				"forkedPlatform": "all",
-				"callbackType": null,
-				"widgetPath": "this.view.btnClearCookies"
-			}
-		]
-	}
+    "AS_Button_d5e93031e4b9425f9c93937796cbdcc9": {
+        "id": "AS_Button_d5e93031e4b9425f9c93937796cbdcc9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+            "name": "FormNetworkApi"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_g40f20151e22429ca6723afe8715be8f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.net.clearCookies(window.location.origin);\nthis.view.LabelOutput.text = \"Cleared cookies successfully\";",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___fe53891ea05548e896eec55e36ad4ec7",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormNetworkApi",
+            "widgetId": "btnClearCookies",
+            "propertyName": "skin",
+            "propertyValue": "cnfNetApi",
+            "itemKUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+            "widgetKUID": "b3ea74bf34c14a44ad6eff1eea10fadc",
+            "skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.btnClearCookies"
+        }]
+    }
 }

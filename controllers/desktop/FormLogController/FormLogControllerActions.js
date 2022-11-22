@@ -1,13 +1,8 @@
 define({
     /*
-        This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+      This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    AS_Button_fb88d26d35aa419cb69f03ee5d729e3a: function AS_Button_fb88d26d35aa419cb69f03ee5d729e3a(eventobject) {
-        var self = this;
-        var ntf = new voltmx.mvc.Navigation("FormHome");
-        ntf.navigate();
-        self.view.lbConf.isVisible = false;
-    },
+    /** onClick defined for btnGenerate **/
     AS_Button_f3e379d7313c4b74b10277426ce0acc7: function AS_Button_f3e379d7313c4b74b10277426ce0acc7(eventobject) {
         var self = this;
         //Create Logger Configuration
@@ -56,6 +51,14 @@ define({
         }];
         this.view.lbConf.isVisible = true;
     },
+    /** onClick defined for btnBack **/
+    AS_Button_fb88d26d35aa419cb69f03ee5d729e3a: function AS_Button_fb88d26d35aa419cb69f03ee5d729e3a(eventobject) {
+        var self = this;
+        var ntf = new voltmx.mvc.Navigation("FormHome");
+        ntf.navigate();
+        self.view.lbConf.isVisible = false;
+    },
+    /** init defined for FormLog **/
     AS_Form_daa712c4d67c4bc8b3c3d98d76dba540: function AS_Form_daa712c4d67c4bc8b3c3d98d76dba540(eventobject) {
         var self = this;
         self.view.lbConf.isVisible = false;

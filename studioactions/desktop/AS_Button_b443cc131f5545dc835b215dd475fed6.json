@@ -1,33 +1,31 @@
 {
-	"AS_Button_b443cc131f5545dc835b215dd475fed6": {
-		"id": "AS_Button_b443cc131f5545dc835b215dd475fed6",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "e9ac80d95e8d4841ae180a312abd9a6a"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "NAVIGATE_TO_FORM__ide_onClick_b3e12ed4adb94bafa9ad0b487c34028e",
-				"type": "NAVIGATE_TO_FORM",
-				"formId": "Form2",
-				"formKUID": "d50873633a2842318df00686ea1f5e63",
-				"mappings": {},
-				"mappingsOrder": [],
-				"callbackType": null,
-				"enableMappingEditor": true,
-				"package": "",
-				"navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnNext\"\n    }\n}",
-				"isCustomInput": false
-			}
-		]
-	}
+    "AS_Button_b443cc131f5545dc835b215dd475fed6": {
+        "id": "AS_Button_b443cc131f5545dc835b215dd475fed6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e9ac80d95e8d4841ae180a312abd9a6a",
+            "name": "Form1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_b3e12ed4adb94bafa9ad0b487c34028e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "d50873633a2842318df00686ea1f5e63",
+            "projectName": "MathStrLogWTNtwk",
+            "mappings": {},
+            "mappingsOrder": [],
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnNext\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
 }

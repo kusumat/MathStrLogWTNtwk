@@ -1,48 +1,45 @@
 {
-	"AS_Button_fb88d26d35aa419cb69f03ee5d729e3a": {
-		"id": "AS_Button_fb88d26d35aa419cb69f03ee5d729e3a",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "i315e993036141fd8188f5a92b9e1aca"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "NAVIGATE_TO_FORM__ide_onClick_i3b977488b414d1b9f671ac20b80dc11",
-				"type": "NAVIGATE_TO_FORM",
-				"formId": "FormHome",
-				"formKUID": "a74e3bbfe215455fbeb57911a35f2af7",
-				"mappings": {},
-				"mappingsOrder": [],
-				"callbackType": null,
-				"enableMappingEditor": true,
-				"package": "",
-				"isCustomInput": false
-			},
-			{
-				"id": "SET_FORM_WIDGET_PROPERTY___i243f821dd304389ab43095993a00c5b",
-				"type": "SET_WIDGET_PROPERTY",
-				"itemType": "FORM",
-				"itemId": "FormLog",
-				"widgetId": "lbConf",
-				"propertyName": "isVisible",
-				"propertyValue": "false",
-				"itemKUID": "i315e993036141fd8188f5a92b9e1aca",
-				"widgetKUID": "b16432be4bbc449798ea85f06c6cb7ad",
-				"isSkinProperty": false,
-				"wType": "Label",
-				"forkedPlatform": "all",
-				"callbackType": null,
-				"widgetPath": "this.view.lbConf"
-			}
-		]
-	}
+    "AS_Button_fb88d26d35aa419cb69f03ee5d729e3a": {
+        "id": "AS_Button_fb88d26d35aa419cb69f03ee5d729e3a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "i315e993036141fd8188f5a92b9e1aca",
+            "name": "FormLog"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_i3b977488b414d1b9f671ac20b80dc11",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormHome",
+            "formKUID": "a74e3bbfe215455fbeb57911a35f2af7",
+            "projectName": "MathStrLogWTNtwk",
+            "mappings": {},
+            "mappingsOrder": [],
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___i243f821dd304389ab43095993a00c5b",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLog",
+            "widgetId": "lbConf",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "i315e993036141fd8188f5a92b9e1aca",
+            "widgetKUID": "b16432be4bbc449798ea85f06c6cb7ad",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.lbConf"
+        }]
+    }
 }

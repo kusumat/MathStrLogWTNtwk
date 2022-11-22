@@ -1,46 +1,41 @@
 {
-	"AS_Button_c1591d9669704816a2165fbc04dd6023": {
-		"id": "AS_Button_c1591d9669704816a2165fbc04dd6023",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
-			"name": "FormNetworkApi"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET_d682f5f544b04865930b7a874d89b24f",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "var config = {};\nconfig.statusChange = function(isOnLine) {\n    if (isOnLine) {\n        alert(\"Device is online :- message from NetworkCallbacks\");\n    } else {\n        alert(\"Device is offline :- message from NetworkCallbacks\");\n    }\n};\nkony.net.setNetworkCallbacks(config);\n\n//alert(\"Network Callbacks successful\");\nthis.view.LabelOutput.text = \"Network Callbacks successful\";",
-				"parentId": null,
-				"callbackType": null
-			},
-			{
-				"id": "SET_FORM_WIDGET_PROPERTY___e1050e6928664c2c886b9c883ad68732",
-				"type": "SET_WIDGET_PROPERTY",
-				"itemType": "FORM",
-				"itemId": "FormNetworkApi",
-				"widgetId": "btnNetCallBack",
-				"propertyName": "skin",
-				"propertyValue": "cnfNetApi",
-				"itemKUID": "a349b8e0b47b4038bdb2397d702f7a1d",
-				"widgetKUID": "c94bd81b8c3b4208bec77262042be464",
-				"skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
-				"isSkinProperty": true,
-				"wType": "Button",
-				"currentTheme": "defaultTheme",
-				"forkedPlatform": "all",
-				"callbackType": null,
-				"widgetPath": "this.view.btnNetCallBack"
-			}
-		]
-	}
+    "AS_Button_c1591d9669704816a2165fbc04dd6023": {
+        "id": "AS_Button_c1591d9669704816a2165fbc04dd6023",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+            "name": "FormNetworkApi"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d682f5f544b04865930b7a874d89b24f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var config = {};\nconfig.statusChange = function(isOnLine) {\n    if (isOnLine) {\n        alert(\"Device is online :- message from NetworkCallbacks\");\n    } else {\n        alert(\"Device is offline :- message from NetworkCallbacks\");\n    }\n};\nkony.net.setNetworkCallbacks(config);\n\n//alert(\"Network Callbacks successful\");\nthis.view.LabelOutput.text = \"Network Callbacks successful\";",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___e1050e6928664c2c886b9c883ad68732",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormNetworkApi",
+            "widgetId": "btnNetCallBack",
+            "propertyName": "skin",
+            "propertyValue": "cnfNetApi",
+            "itemKUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+            "widgetKUID": "c94bd81b8c3b4208bec77262042be464",
+            "skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.btnNetCallBack"
+        }]
+    }
 }

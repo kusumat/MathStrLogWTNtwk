@@ -1,64 +1,60 @@
 {
-	"AS_Button_a83753f1624e42dbbe8de50cfa888dc4": {
-		"id": "AS_Button_a83753f1624e42dbbe8de50cfa888dc4",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "d5e76158cf2741deb49694760b1d4f33"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "NAVIGATE_TO_FORM__ide_onClick_jff5e760a3074d70aa551dad71280638",
-				"type": "NAVIGATE_TO_FORM",
-				"formId": "FormHome",
-				"formKUID": "a74e3bbfe215455fbeb57911a35f2af7",
-				"mappings": {},
-				"mappingsOrder": [],
-				"callbackType": null,
-				"enableMappingEditor": true,
-				"package": "",
-				"isCustomInput": false
-			},
-			{
-				"id": "SET_FORM_WIDGET_PROPERTY___f9f7ffe20a2d4df9beaac845065763e9",
-				"type": "SET_WIDGET_PROPERTY",
-				"itemType": "FORM",
-				"itemId": "FormWorkerThread",
-				"widgetId": "tf1",
-				"propertyName": "isVisible",
-				"propertyValue": "false",
-				"itemKUID": "d5e76158cf2741deb49694760b1d4f33",
-				"widgetKUID": "b0736227e998402e97504defae66eecb",
-				"isSkinProperty": false,
-				"wType": "TextField",
-				"forkedPlatform": "all",
-				"callbackType": null,
-				"widgetPath": "this.view.tf1"
-			},
-			{
-				"id": "SET_FORM_WIDGET_PROPERTY___b52ff7229c714495af82a1aea3c590cf",
-				"type": "SET_WIDGET_PROPERTY",
-				"itemType": "FORM",
-				"itemId": "FormWorkerThread",
-				"widgetId": "tf2",
-				"propertyName": "isVisible",
-				"propertyValue": "false",
-				"itemKUID": "d5e76158cf2741deb49694760b1d4f33",
-				"widgetKUID": "cae8232fbb9f41beaf4a449a39dd7617",
-				"isSkinProperty": false,
-				"wType": "TextField",
-				"forkedPlatform": "all",
-				"callbackType": null,
-				"widgetPath": "this.view.tf2"
-			}
-		]
-	}
+    "AS_Button_a83753f1624e42dbbe8de50cfa888dc4": {
+        "id": "AS_Button_a83753f1624e42dbbe8de50cfa888dc4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5e76158cf2741deb49694760b1d4f33",
+            "name": "FormWorkerThread"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_jff5e760a3074d70aa551dad71280638",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormHome",
+            "formKUID": "a74e3bbfe215455fbeb57911a35f2af7",
+            "projectName": "MathStrLogWTNtwk",
+            "mappings": {},
+            "mappingsOrder": [],
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___f9f7ffe20a2d4df9beaac845065763e9",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormWorkerThread",
+            "widgetId": "tf1",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "d5e76158cf2741deb49694760b1d4f33",
+            "widgetKUID": "b0736227e998402e97504defae66eecb",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.tf1"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___b52ff7229c714495af82a1aea3c590cf",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormWorkerThread",
+            "widgetId": "tf2",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "d5e76158cf2741deb49694760b1d4f33",
+            "widgetKUID": "cae8232fbb9f41beaf4a449a39dd7617",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.tf2"
+        }]
+    }
 }

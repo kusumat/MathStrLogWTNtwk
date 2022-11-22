@@ -1,30 +1,27 @@
 {
-	"AS_Button_baa75c532ce44eb0ac253fffbac7488b": {
-		"id": "AS_Button_baa75c532ce44eb0ac253fffbac7488b",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "e9ac80d95e8d4841ae180a312abd9a6a"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "INVOKE_FUNCTION__ide_onClick_b21a4ccba1c545dc96d1e750eac8a945",
-				"type": "INVOKE_FUNCTION",
-				"sequenceKUID": "containsNoGivenChars",
-				"display": "containsNoGivenChars",
-				"inputparams": [],
-				"callbackType": null,
-				"disabled": null,
-				"source": "controller"
-			}
-		]
-	}
+    "AS_Button_baa75c532ce44eb0ac253fffbac7488b": {
+        "id": "AS_Button_baa75c532ce44eb0ac253fffbac7488b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e9ac80d95e8d4841ae180a312abd9a6a",
+            "name": "Form1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b21a4ccba1c545dc96d1e750eac8a945",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "containsNoGivenChars",
+            "display": "containsNoGivenChars",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
 }

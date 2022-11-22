@@ -1,41 +1,37 @@
 {
-	"AS_Button_a935cab2f3f341cdbd6db8d8fb14094d": {
-		"id": "AS_Button_a935cab2f3f341cdbd6db8d8fb14094d",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "d5e76158cf2741deb49694760b1d4f33"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET_ide_onClick_f973f3eb41a04ee0ac22414907a3c7d1",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "//create new worker\nvar worker = new kony.worker.WorkerThread('FirstThread.js');\n\n//invoked when worker calls postmessage() from its inner scope\nworker.addEventListener(\"message\", function (event) {\n    kony.print('Parent Scope : onmessage : event.data : ' + event.data[\"message\"]);\n});\n\nkony.print('Parent Scope : Invoking worker.postmessage()');\n//will invoke worker's inner scope onmessage()\nworker.postMessage({\n    'message': 'Hello World From Parent'\n});\n"
-			},
-			{
-				"id": "SET_FORM_WIDGET_PROPERTY___e72c5fadfc314c4e9b5e5feee047899a",
-				"type": "SET_WIDGET_PROPERTY",
-				"itemType": "FORM",
-				"itemId": "FormWorkerThread",
-				"widgetId": "tf1",
-				"propertyName": "isVisible",
-				"propertyValue": "true",
-				"itemKUID": "d5e76158cf2741deb49694760b1d4f33",
-				"widgetKUID": "b0736227e998402e97504defae66eecb",
-				"isSkinProperty": false,
-				"wType": "TextField",
-				"forkedPlatform": "all",
-				"callbackType": null,
-				"widgetPath": "this.view.tf1"
-			}
-		]
-	}
+    "AS_Button_a935cab2f3f341cdbd6db8d8fb14094d": {
+        "id": "AS_Button_a935cab2f3f341cdbd6db8d8fb14094d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5e76158cf2741deb49694760b1d4f33",
+            "name": "FormWorkerThread"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f973f3eb41a04ee0ac22414907a3c7d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//create new worker\nvar worker = new kony.worker.WorkerThread('FirstThread.js');\n\n//invoked when worker calls postmessage() from its inner scope\nworker.addEventListener(\"message\", function (event) {\n    kony.print('Parent Scope : onmessage : event.data : ' + event.data[\"message\"]);\n});\n\nkony.print('Parent Scope : Invoking worker.postmessage()');\n//will invoke worker's inner scope onmessage()\nworker.postMessage({\n    'message': 'Hello World From Parent'\n});\n"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___e72c5fadfc314c4e9b5e5feee047899a",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormWorkerThread",
+            "widgetId": "tf1",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "d5e76158cf2741deb49694760b1d4f33",
+            "widgetKUID": "b0736227e998402e97504defae66eecb",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.tf1"
+        }]
+    }
 }

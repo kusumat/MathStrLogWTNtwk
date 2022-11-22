@@ -1,7 +1,7 @@
 define({
     /*
-          This is an auto generated file and any modifications to it may result in corruption of the action sequence.
-        */
+      This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
     /** onClick defined for btnBack **/
     AS_Button_a83753f1624e42dbbe8de50cfa888dc4: function AS_Button_a83753f1624e42dbbe8de50cfa888dc4(eventobject) {
         var self = this;

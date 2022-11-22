@@ -1,30 +1,27 @@
 {
-	"AS_Button_hcd129c656064f85b5186fad3e44d41f": {
-		"id": "AS_Button_hcd129c656064f85b5186fad3e44d41f",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "e107753a01b742d8b0512d057b30028c"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "INVOKE_FUNCTION__ide_onClick_bff5e2f2123f4acf9ba8be18e8015a5a",
-				"type": "INVOKE_FUNCTION",
-				"sequenceKUID": "isValidEmail",
-				"display": "isValidEmail",
-				"inputparams": [],
-				"callbackType": null,
-				"disabled": null,
-				"source": "controller"
-			}
-		]
-	}
+    "AS_Button_hcd129c656064f85b5186fad3e44d41f": {
+        "id": "AS_Button_hcd129c656064f85b5186fad3e44d41f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e107753a01b742d8b0512d057b30028c",
+            "name": "Form2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_bff5e2f2123f4acf9ba8be18e8015a5a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "isValidEmail",
+            "display": "isValidEmail",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
 }

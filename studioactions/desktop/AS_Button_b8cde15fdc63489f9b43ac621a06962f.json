@@ -1,30 +1,27 @@
 {
-	"AS_Button_b8cde15fdc63489f9b43ac621a06962f": {
-		"id": "AS_Button_b8cde15fdc63489f9b43ac621a06962f",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "i9195dad84304bf090d9ce61bf635ee6"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "INVOKE_FUNCTION__ide_onClick_a670b472441446399071e6a1e0722333",
-				"type": "INVOKE_FUNCTION",
-				"sequenceKUID": "onclickRandom",
-				"display": "onclickRandom",
-				"inputparams": [],
-				"callbackType": null,
-				"disabled": null,
-				"source": "controller"
-			}
-		]
-	}
+    "AS_Button_b8cde15fdc63489f9b43ac621a06962f": {
+        "id": "AS_Button_b8cde15fdc63489f9b43ac621a06962f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "i9195dad84304bf090d9ce61bf635ee6",
+            "name": "frmHomeMath"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a670b472441446399071e6a1e0722333",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onclickRandom",
+            "display": "onclickRandom",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
 }

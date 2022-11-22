@@ -1,41 +1,37 @@
 {
-	"AS_Button_i3be8e77b36a47f2963e368bca7a351d": {
-		"id": "AS_Button_i3be8e77b36a47f2963e368bca7a351d",
-		"type": "ACTION_SEQUENCE",
-		"params": [
-			{
-				"datatype": "collection",
-				"name": "eventobject"
-			}
-		],
-		"contextObj": {
-			"type": "forms",
-			"platform": null,
-			"KUID": "d5e76158cf2741deb49694760b1d4f33"
-		},
-		"language": "js",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET_ide_onClick_c17ba4ea18664376a03c5c2927c14f34",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "try {\n    kony.print(\"Parent Scope: Init test_case_parent_thread()\");\n    kony.print(\"Parent Scope: In try block\");\n\n    //create new kony.worker.WorkerThread\n    var worker = new kony.worker.WorkerThread('WorkerThread.js');\n\n    //invoked when worker calls postmessage() from its inner scope\n    worker.addEventListener(\"message\", function (event) {\n        kony.print('Parent Scope : onmessage : event.data : ' + event.data);\n    });\n\n    worker.postMessage(\"Hello from Parent\");\n\n} catch (err) {\n    kony.print(\"Parent Scope: In Catch block\");\n\n}\n\n//invoke a function                \ninvoke_timer_task();\n\n//\nfunction invoke_timer_task() {\n    kony.print(\"Parent Scope :- kony.timer.schedule - \");\n\n    var timerId = \"mytimer12111\";\n    var i = 0;\n\n    function timerFunc() {\n\n        i++;\n        kony.print(\"Parent Scope :- kony.timer.schedule - In timerFunc() : \" + i);\n        if (i > 20) {\n            kony.print(\"Parent Scope :- kony.timer.schedule - Stopping timer : \");\n            kony.timer.cancel(timerId);\n        }\n    };\n\n    //\n    kony.timer.schedule(timerId, timerFunc, 1, true);\n    kony.print(\"Parent Scope :- kony.timer.schedule - Done\");\n};\nkony.print(\"Parent Scope: Exit test_case_parent_thread()\");"
-			},
-			{
-				"id": "SET_FORM_WIDGET_PROPERTY___bbac633975f94b1cabc1746f3f47cf35",
-				"type": "SET_WIDGET_PROPERTY",
-				"itemType": "FORM",
-				"itemId": "FormWorkerThread",
-				"widgetId": "tf2",
-				"propertyName": "isVisible",
-				"propertyValue": "true",
-				"itemKUID": "d5e76158cf2741deb49694760b1d4f33",
-				"widgetKUID": "cae8232fbb9f41beaf4a449a39dd7617",
-				"isSkinProperty": false,
-				"wType": "TextField",
-				"forkedPlatform": "all",
-				"callbackType": null,
-				"widgetPath": "this.view.tf2"
-			}
-		]
-	}
+    "AS_Button_i3be8e77b36a47f2963e368bca7a351d": {
+        "id": "AS_Button_i3be8e77b36a47f2963e368bca7a351d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5e76158cf2741deb49694760b1d4f33",
+            "name": "FormWorkerThread"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c17ba4ea18664376a03c5c2927c14f34",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n    kony.print(\"Parent Scope: Init test_case_parent_thread()\");\n    kony.print(\"Parent Scope: In try block\");\n\n    //create new kony.worker.WorkerThread\n    var worker = new kony.worker.WorkerThread('WorkerThread.js');\n\n    //invoked when worker calls postmessage() from its inner scope\n    worker.addEventListener(\"message\", function (event) {\n        kony.print('Parent Scope : onmessage : event.data : ' + event.data);\n    });\n\n    worker.postMessage(\"Hello from Parent\");\n\n} catch (err) {\n    kony.print(\"Parent Scope: In Catch block\");\n\n}\n\n//invoke a function                \ninvoke_timer_task();\n\n//\nfunction invoke_timer_task() {\n    kony.print(\"Parent Scope :- kony.timer.schedule - \");\n\n    var timerId = \"mytimer12111\";\n    var i = 0;\n\n    function timerFunc() {\n\n        i++;\n        kony.print(\"Parent Scope :- kony.timer.schedule - In timerFunc() : \" + i);\n        if (i > 20) {\n            kony.print(\"Parent Scope :- kony.timer.schedule - Stopping timer : \");\n            kony.timer.cancel(timerId);\n        }\n    };\n\n    //\n    kony.timer.schedule(timerId, timerFunc, 1, true);\n    kony.print(\"Parent Scope :- kony.timer.schedule - Done\");\n};\nkony.print(\"Parent Scope: Exit test_case_parent_thread()\");"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___bbac633975f94b1cabc1746f3f47cf35",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormWorkerThread",
+            "widgetId": "tf2",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "d5e76158cf2741deb49694760b1d4f33",
+            "widgetKUID": "cae8232fbb9f41beaf4a449a39dd7617",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.tf2"
+        }]
+    }
 }

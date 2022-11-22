@@ -1,0 +1,71 @@
+{
+    "testCaseName": "testCaseFormData",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "usedBy": {
+        "MathStrLogWTNtwk": [
+            "testSuiteSPA.js"
+        ]
+    },
+    "steps": [
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "FormNetworkApi.btnFormData",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "FormNetworkApi.btnFormData",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "6eb542cb-ab5c-4f3b-aa4b-b1c044fb17d9"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "FormNetworkApi.LabelOutput",
+            "metaEditable": true,
+            "dispMeta": {
+                "value": "\"Values added by set method\"",
+                "prop": "text"
+            },
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "23c16b21-c56c-8994-c739-17e09d325796",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "FormNetworkApi.LabelOutput",
+                        "assertValue": "\"Values added by set method\"",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "_currentForm": "FormNetworkApi",
+    "timeout": 0,
+    "appName": "MathStrLogWTNtwk"
+}

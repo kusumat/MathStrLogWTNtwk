@@ -1,0 +1,30 @@
+{
+    "AS_Button_f0130164a8184eb5bf36b332864675dc": {
+        "id": "AS_Button_f0130164a8184eb5bf36b332864675dc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "a74e3bbfe215455fbeb57911a35f2af7",
+            "name": "FormHome"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_h36137ef113a47ea8f48bc1d2442eb74",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormNetworkApi",
+            "formKUID": "f9c7cb3ab18d47aa946726c05fe5b0a0",
+            "projectName": "MathStrLogWTNtwk",
+            "mappings": {},
+            "mappingsOrder": [],
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

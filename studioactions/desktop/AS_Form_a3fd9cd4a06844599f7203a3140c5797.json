@@ -1,0 +1,52 @@
+{
+	"AS_Form_a3fd9cd4a06844599f7203a3140c5797": {
+		"id": "AS_Form_a3fd9cd4a06844599f7203a3140c5797",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "d5e76158cf2741deb49694760b1d4f33"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY___g5435134ef444d60b10bc278537ab576",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormWorkerThread",
+				"widgetId": "tf1",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "d5e76158cf2741deb49694760b1d4f33",
+				"widgetKUID": "b0736227e998402e97504defae66eecb",
+				"isSkinProperty": false,
+				"wType": "TextField",
+				"forkedPlatform": "all",
+				"callbackType": null,
+				"widgetPath": "this.view.tf1"
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY___b1d98eee2a494d4888545020d585f500",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormWorkerThread",
+				"widgetId": "tf2",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "d5e76158cf2741deb49694760b1d4f33",
+				"widgetKUID": "cae8232fbb9f41beaf4a449a39dd7617",
+				"isSkinProperty": false,
+				"wType": "TextField",
+				"forkedPlatform": "all",
+				"callbackType": null,
+				"widgetPath": "this.view.tf2"
+			}
+		]
+	}
+}

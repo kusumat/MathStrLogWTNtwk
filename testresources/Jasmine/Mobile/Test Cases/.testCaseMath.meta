@@ -1,0 +1,61 @@
+{
+    "testCaseName": "testCaseMath",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "FormHome.btnMath",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "fa0d9567-fd27-294f-4f73-858273540a44",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "FormHome.btnMath"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "FormHome.btnMath",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "FormHome.btnMath",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "ca68ac2d-57fb-48f7-94ac-f9fc5931362b"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        }
+    ],
+    "_currentForm": "FormHome",
+    "timeout": 0,
+    "usedBy": {
+        "MathStrLogWTNtwk": [
+            "testSuiteSPA.js"
+        ]
+    },
+    "appName": "MathStrLogWTNtwk"
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Button_abea1d1ea118458b9a2769ff59174d4d": {
+        "id": "AS_Button_abea1d1ea118458b9a2769ff59174d4d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d50873633a2842318df00686ea1f5e63",
+            "name": "Form2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onClick_e0d5ef0714024b4ea12f0dbb88e5c972",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "isValidEmail",
+            "display": "isValidEmail",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

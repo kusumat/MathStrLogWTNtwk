@@ -1,0 +1,38 @@
+{
+    "AS_Button_f03aae523ea64716a962a90807ed35a0": {
+        "id": "AS_Button_f03aae523ea64716a962a90807ed35a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f9c7cb3ab18d47aa946726c05fe5b0a0",
+            "name": "FormNetworkApi"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ga30afe13fd14bda832f56bf45992ed9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var cookies = kony.net.getCookies(\"http:\\\\www.google.com\");\nfor (index = 0; index < cookies.length; index++) {\n  cookie = cookies[index];\n  alert(\"Cookie is: \" + cookie); \n}",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___cf997a111a214b08869694b55bdd8ed4",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormNetworkApi",
+            "propertyName": "skin",
+            "propertyValue": "cnfNetApi",
+            "itemKUID": "f9c7cb3ab18d47aa946726c05fe5b0a0",
+            "widgetKUID": "f7a4b6c86dfe430f9af3cd6a35947690",
+            "skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null
+        }]
+    }
+}

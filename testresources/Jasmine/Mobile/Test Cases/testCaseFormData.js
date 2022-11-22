@@ -1,0 +1,4 @@
+it("MathStrLogWTNtwk/testCaseFormData", async function() {
+	voltmx.automation.button.click(["FormNetworkApi","btnFormData"]);
+	expect(voltmx.automation.widget.getWidgetProperty(["FormNetworkApi","LabelOutput"], "text")).toEqual("Values added by set method");
+});

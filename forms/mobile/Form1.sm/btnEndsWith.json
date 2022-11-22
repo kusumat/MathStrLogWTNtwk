@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s550af05964542c19f7ceab8d47b7342",
+    "_text_": "Check if the input string ends with the compare string",
+    "_top_": {
+        "type": "string",
+        "value": "367dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.03%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sc309733adb74f52942dd18a09c87981",
+    "id": "btnEndsWith",
+    "ide_onClick": "AS_Button_e0d884e63d0b429a818ae6e40c633552",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "gcc3c6861113404cbb92ea499dbb650c",
+    "name": "kony.ui.Button",
+    "parent": "flxBody",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

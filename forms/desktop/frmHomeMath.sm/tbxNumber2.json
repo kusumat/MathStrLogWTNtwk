@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "210dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter a number",
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_skin_": "s5b949bfdc2e4cd09e2b275dcbe01f9b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "357dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "43%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "74.54%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s591daa3725946d9bb8773da55f0809e",
+    "id": "tbxNumber2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "hf65cbf8233e4dacb440fb8b4d18d29c",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxHome",
+    "pf": "frmHomeMath",
+    "placeholderskin": "s7edcacd19b945099dc98344bb5da1e8",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

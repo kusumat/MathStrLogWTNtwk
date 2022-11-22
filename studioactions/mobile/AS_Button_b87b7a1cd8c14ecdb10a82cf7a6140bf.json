@@ -1,0 +1,21 @@
+{
+    "AS_Button_b87b7a1cd8c14ecdb10a82cf7a6140bf": {
+        "id": "AS_Button_b87b7a1cd8c14ecdb10a82cf7a6140bf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onClick_ia9fd842e0494ea4adc6c28d4bf04764",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "isAsciiAlpha",
+            "display": "isAsciiAlpha",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

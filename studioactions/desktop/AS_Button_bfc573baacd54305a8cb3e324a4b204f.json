@@ -1,0 +1,45 @@
+{
+	"AS_Button_bfc573baacd54305a8cb3e324a4b204f": {
+		"id": "AS_Button_bfc573baacd54305a8cb3e324a4b204f",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+			"name": "FormNetworkApi"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_ide_onClick_g395ad445830427ba6321054a9bd0ec3",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "var request = new kony.net.HttpRequest();\n//alert(\"http object created :-\"+request.getAllResponseHeaders());\nthis.view.LabelResult.text = \"http object created :-\"+request.getAllResponseHeaders();\nthis.view.LabelOutput.text = \"Http object created successfully\";",
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY___fd379db6e3874a259608c77639a82696",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormNetworkApi",
+				"widgetId": "btnHttpRequest",
+				"propertyName": "skin",
+				"propertyValue": "cnfNetApi",
+				"itemKUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+				"widgetKUID": "cfaacc325cff431ab9a898e40c0d3e62",
+				"skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+				"isSkinProperty": true,
+				"wType": "Button",
+				"currentTheme": "defaultTheme",
+				"forkedPlatform": "all",
+				"callbackType": null,
+				"widgetPath": "this.view.btnHttpRequest"
+			}
+		]
+	}
+}

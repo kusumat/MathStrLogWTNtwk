@@ -1,0 +1,39 @@
+{
+    "AS_Button_c1adb6e761fe47918849d43d77076fb3": {
+        "id": "AS_Button_c1adb6e761fe47918849d43d77076fb3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "ef951da3b91444b7bbd6eaeea1810afa",
+            "name": "FormWorkerThread"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b66439adb59c494e9fbcd97345f3ea53",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n    kony.print(\"Parent Scope: Init test_case_parent_thread()\");\n    kony.print(\"Parent Scope: In try block\");\n\n    //create new kony.worker.WorkerThread\n    var worker = new kony.worker.WorkerThread('WorkerThread.js');\n\n    //invoked when worker calls postmessage() from its inner scope\n    worker.addEventListener(\"message\", function (event) {\n        kony.print('Parent Scope : onmessage : event.data : ' + event.data);\n    });\n\n    worker.postMessage(\"Hello from Parent\");\n\n} catch (err) {\n    kony.print(\"Parent Scope: In Catch block\");\n\n}\n\n//invoke a function                \ninvoke_timer_task();\n\n//\nfunction invoke_timer_task() {\n    kony.print(\"Parent Scope :- kony.timer.schedule - \");\n\n    var timerId = \"mytimer12111\";\n    var i = 0;\n\n    function timerFunc() {\n\n        i++;\n        kony.print(\"Parent Scope :- kony.timer.schedule - In timerFunc() : \" + i);\n        if (i > 20) {\n            kony.print(\"Parent Scope :- kony.timer.schedule - Stopping timer : \");\n            kony.timer.cancel(timerId);\n        }\n    };\n\n    //\n    kony.timer.schedule(timerId, timerFunc, 1, true);\n    kony.print(\"Parent Scope :- kony.timer.schedule - Done\");\n};\nkony.print(\"Parent Scope: Exit test_case_parent_thread()\");",
+            "parentId": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__f4b1e3641b7748d39546ca74507627ed",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormWorkerThread",
+            "widgetId": "tf2",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "ef951da3b91444b7bbd6eaeea1810afa",
+            "widgetKUID": "gb3c6e3e47d349a697c708998678b685",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.tf2"
+        }]
+    }
+}

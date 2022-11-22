@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10.00%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfc005076a9f4011b4bb518467452e35",
+    "_text_": "Nested threads",
+    "_top_": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s02005e0d4784b3fa7ba3f229695cf0c",
+    "id": "btnNestedThread",
+    "ide_onClick": "AS_Button_c1adb6e761fe47918849d43d77076fb3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aca672b55af14cd8b2b382ce6c0fbd83",
+    "name": "kony.ui.Button",
+    "parent": "FormWorkerThread",
+    "pf": "FormWorkerThread",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

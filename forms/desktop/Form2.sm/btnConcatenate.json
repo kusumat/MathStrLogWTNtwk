@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "9.78%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb4ba8ee1c9b4ea3a2de34e7ec6079cd",
+    "_text_": "Concatenate the string with itself",
+    "_top_": {
+        "type": "string",
+        "value": "388dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.03%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb3aee86379a481c8ff1e6de59534754",
+    "id": "btnConcatenate",
+    "ide_onClick": "AS_Button_a43e76ee73104833b93e0466de81f7f5",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bd1b88f589eb4c5faf75f469ab4e6787",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0j0929fecb58f40",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

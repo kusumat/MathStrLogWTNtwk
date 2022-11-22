@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "43dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "37.33%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1210a419192423485029ac905403fdc",
+    "_text_": "Math API",
+    "_top_": {
+        "type": "string",
+        "value": "20.41%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "110dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.96%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "42.98%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblHeader",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g349c3ea6ab74776be9ee630a59c618e",
+    "name": "kony.ui.Label",
+    "parent": "flxHeader",
+    "pf": "frmHomeMath",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

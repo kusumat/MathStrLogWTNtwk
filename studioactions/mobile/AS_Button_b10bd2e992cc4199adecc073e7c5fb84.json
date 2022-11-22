@@ -1,0 +1,27 @@
+{
+    "AS_Button_b10bd2e992cc4199adecc073e7c5fb84": {
+        "id": "AS_Button_b10bd2e992cc4199adecc073e7c5fb84",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d50873633a2842318df00686ea1f5e63",
+            "name": "Form2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onClick_d20a2c0fe0694478ac46b3b79df575c3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "reverse",
+            "display": "reverse",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_TextField_cc7d26abb4c04b1ebb1cfd343dee2063": {
+        "id": "AS_TextField_cc7d26abb4c04b1ebb1cfd343dee2063",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d28b46ed118c4b619f7ffbde57486299",
+            "name": "frmHomeMath"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

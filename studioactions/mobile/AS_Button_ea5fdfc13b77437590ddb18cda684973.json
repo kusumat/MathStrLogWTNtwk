@@ -1,0 +1,28 @@
+{
+    "AS_Button_ea5fdfc13b77437590ddb18cda684973": {
+        "id": "AS_Button_ea5fdfc13b77437590ddb18cda684973",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d28b46ed118c4b619f7ffbde57486299",
+            "name": "frmHomeMath"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d1260815fa864e47b4bb7e2d567f9a3b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onclickmax",
+            "display": "onclickmax",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "AS_Button_ee29ec9f1a8d4039b95a82c6642758ef": {
+        "id": "AS_Button_ee29ec9f1a8d4039b95a82c6642758ef",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f9c7cb3ab18d47aa946726c05fe5b0a0",
+            "name": "FormNetworkApi"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e83221da53ad477cbe40130cd3e7abb8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setCookiesFunc",
+            "display": "setCookiesFunc",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___a33e380c00ff4b30924f1722e3296472",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormNetworkApi",
+            "propertyName": "skin",
+            "propertyValue": "cnfNetApi",
+            "itemKUID": "f9c7cb3ab18d47aa946726c05fe5b0a0",
+            "widgetKUID": "b5ee9452a3984e23b5c2c9a7c20ed764",
+            "skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null
+        }]
+    }
+}

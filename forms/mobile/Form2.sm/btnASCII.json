@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "9.35%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb4ba8ee1c9b4ea3a2de34e7ec6079cd",
+    "_text_": "Check whether the string contains ASCII alphabets",
+    "_top_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.03%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb3aee86379a481c8ff1e6de59534754",
+    "id": "btnASCII",
+    "ide_onClick": "AS_Button_b87b7a1cd8c14ecdb10a82cf7a6140bf",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hceeeeea62784838a2ce7b954a1320f4",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0j0929fecb58f40",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "57dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5.00%"
+    },
+    "_skin_": "s93dafabbbb94563877b318b23fc2768",
+    "_text_": "Decimal to integer ",
+    "_top_": {
+        "type": "string",
+        "value": "216dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "112dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "80%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s02005e0d4784b3fa7ba3f229695cf0c",
+    "id": "btnConvert",
+    "ide_onClick": "AS_Button_cefc2d4c0e7045ecaf40acf50fbf7b9b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dcc5b8ef64b24921940ebcee6ab1cc67",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_eee4486a27c0467ea2abf390bc7b2dbf",
+    "parent": "flxHome",
+    "pf": "frmHomeMath",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "9.80%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb4ba8ee1c9b4ea3a2de34e7ec6079cd",
+    "_text_": "Trim the String",
+    "_top_": {
+        "type": "string",
+        "value": "508dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.03%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb3aee86379a481c8ff1e6de59534754",
+    "id": "btnTrim",
+    "ide_onClick": "AS_Button_e9b0813f5ded49e29eb0c31bd2d45c8b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a21937c551e545dba84947faab7d380f",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0j0929fecb58f40",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

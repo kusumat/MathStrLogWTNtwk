@@ -1,0 +1,56 @@
+{
+    "AS_Button_g9b09f49778243a6833344837b8d0175": {
+        "id": "AS_Button_g9b09f49778243a6833344837b8d0175",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_c21a0ed68b4b42d9b4e6548f490497c4",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormHome",
+            "formKUID": "a74e3bbfe215455fbeb57911a35f2af7",
+            "projectName": "MathStrLogWTNtwk",
+            "mappings": {},
+            "mappingsOrder": [],
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__c12eec25b3bb442fba6ff48c029e52cf",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormWorkerThread",
+            "widgetId": "tf1",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "ef951da3b91444b7bbd6eaeea1810afa",
+            "widgetKUID": "f84cae9d774641fe9d083a59237fb803",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.tf1"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__a288643e346543ddb5fcf42ac61c71f2",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormWorkerThread",
+            "widgetId": "tf2",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "ef951da3b91444b7bbd6eaeea1810afa",
+            "widgetKUID": "gb3c6e3e47d349a697c708998678b685",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.tf2"
+        }]
+    }
+}

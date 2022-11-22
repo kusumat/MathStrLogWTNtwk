@@ -1,0 +1,32 @@
+{
+	"AS_Button_b2534475f7d74f75881a3054671b8c7c": {
+		"id": "AS_Button_b2534475f7d74f75881a3054671b8c7c",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": "",
+			"KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+			"name": "FormNetworkApi"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION__abc8df9d2001478ea11691c40a05ddb8",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "setCookiesFunc",
+				"display": "setCookiesFunc",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			}
+		]
+	}
+}

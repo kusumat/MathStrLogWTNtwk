@@ -1,0 +1,162 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "testSuiteDW",
+    "testCaseInfo": [
+        {
+            "testcaseName": "testCasemath.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseSqrt.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseSquare.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testcasedecimalToInteger.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseMaximum.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseMin.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRandom.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCasePI.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseString.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseContaisCharacters.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseContainsOnlyGivenCharacters.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseNoGivenCharacters.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseEndsWith.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseStartsWith.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testcaseASCIIAlphabets.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseASCIIAlphanumeric.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseNumericCharacters.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseEmailID.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseConatenate.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseReverse.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseTrim.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseLoggingAPI.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseWorkerThread.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseNetworkAPI.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseClearCookies.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseFormData.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseNetworkAvailable.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseHttpObject.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseNetworkType.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseNetworkCallbacks.js",
+            "appName": "MathStrLogWTNtwk",
+            "selectedDataset": null
+        }
+    ],
+    "usedBy": {
+        "MathStrLogWTNtwk": [
+            "testPlanDW.js"
+        ]
+    },
+    "appName": "MathStrLogWTNtwk"
+}

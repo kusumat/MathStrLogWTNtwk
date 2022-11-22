@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Placeholder",
+    "_skin_": "s0cdf098eeed4cb8aaaa8dce16d57a89",
+    "_text_": "Please check the console for output",
+    "_top_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s591daa3725946d9bb8773da55f0809e",
+    "id": "tf1",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "keyboardtype": "A",
+    "kuid": "b0736227e998402e97504defae66eecb",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "FormWorkerThread",
+    "pf": "FormWorkerThread",
+    "placeholderskin": "s7edcacd19b945099dc98344bb5da1e8",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField"
+}

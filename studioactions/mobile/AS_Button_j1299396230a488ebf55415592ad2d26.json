@@ -1,0 +1,24 @@
+{
+    "AS_Button_j1299396230a488ebf55415592ad2d26": {
+        "id": "AS_Button_j1299396230a488ebf55415592ad2d26",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d1d92b4deb6d478faef5734b22f361a0",
+            "name": "FormLog"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d88755ac6a5249a4b2bd59ccb60a17fd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " //Create Logger Configuration\nvar lConfig = new kony.logger.createLoggerConfig();\n//Create FilePersistor\nvar persistor1 = new kony.logger.createFilePersistor();\n//Add Persistor to the loggerConfig\nlConfig.addPersistor(persistor1);\n//Create Logger Object\nloggerObj = new kony.logger.createNewLogger(\"UserLogs\", lConfig);\nkony.logger.activatePersistors(kony.logger.consolePersistor);\nkony.logger.activatePersistors(kony.logger.filePersistor);\nkony.logger.currentLogLevel = kony.logger.logLevel.ALL;\n//Print Statements\n\nvar msg = \" statement \";\nloggerObj.debug(\"Message in debug level\" + msg);\nloggerObj.trace(\"Message in trace level\" + msg);\nloggerObj.fatal(\"Message in Fatal level\" + msg);\nloggerObj.info(\"Message in Info level\" + msg);\nloggerObj.warn(\"Message in warn level\" + msg);\nloggerObj.error(\"Message in error level\" + msg);\n\n   this.view.segLogData.data= [{\n     \"lblHeading\": \"Debug\",\n\t \"lblDescription\": \"Message in debug level\"+ msg,\n\t \"lblTime\": new Date().toLocaleTimeString()\n      }, {\n     \"lblHeading\": \"Trace\",\n\t \"lblDescription\": \"Message in trace level\"+ msg,\n\t \"lblTime\": new Date().toLocaleTimeString()\n      }, {\n     \"lblHeading\": \"Fatal\",\n\t \"lblDescription\": \"Message in Fatal level\"+ msg,\n\t \"lblTime\": new Date().toLocaleTimeString()\n      }, {\n     \"lblHeading\": \"Info\",\n\t \"lblDescription\": \"Message in Info level\"+ msg,\n\t \"lblTime\": new Date().toLocaleTimeString()\n      }, {\n     \"lblHeading\": \"Warn\",\n\t \"lblDescription\": \"Message in warn level\"+ msg,\n\t \"lblTime\": new Date().toLocaleTimeString()\n      }, {\n     \"lblHeading\": \"Error\",\n\t \"lblDescription\": \"Message in error level\"+ msg,\n\t \"lblTime\": new Date().toLocaleTimeString()\n      }];\nthis.view.lbConf.isVisible = true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

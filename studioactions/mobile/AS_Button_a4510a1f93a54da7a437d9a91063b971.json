@@ -1,0 +1,42 @@
+{
+    "AS_Button_a4510a1f93a54da7a437d9a91063b971": {
+        "id": "AS_Button_a4510a1f93a54da7a437d9a91063b971",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "f9c7cb3ab18d47aa946726c05fe5b0a0",
+            "name": "FormNetworkApi"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a7bd58461b5f44fd925100f261b9c1df",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.net.clearCookies(window.location.origin);\nthis.view.LabelOutput.text = \"Cleared cookies successfully\";",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___de05300900a047ce99700db6dddef672",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormNetworkApi",
+            "widgetId": "btnClearCookies",
+            "propertyName": "skin",
+            "propertyValue": "cnfNetApi",
+            "itemKUID": "f9c7cb3ab18d47aa946726c05fe5b0a0",
+            "widgetKUID": "eda1051b00064fb2b9fc83308ed7303a",
+            "skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.btnClearCookies"
+        }]
+    }
+}

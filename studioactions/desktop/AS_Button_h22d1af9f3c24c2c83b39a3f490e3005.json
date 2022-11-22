@@ -1,0 +1,40 @@
+{
+    "AS_Button_h22d1af9f3c24c2c83b39a3f490e3005": {
+        "id": "AS_Button_h22d1af9f3c24c2c83b39a3f490e3005",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+            "name": "FormNetworkApi"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b2149c50a133475fb1ec05f31c12cb69",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var options = {\n  \"requestWithPermission\" : true\n}\n//alert(\"Is Network Available : \"+kony.net.isNetworkAvailable(constants.NETWORK_TYPE_ANY, options));\nthis.view.LabelResult.text = \"Is Network Available : \"+kony.net.isNetworkAvailable(constants.NETWORK_TYPE_ANY, options);\nthis.view.LabelOutput.text = kony.net.isNetworkAvailable(constants.NETWORK_TYPE_ANY, options).toString();\n\n",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY___jc6f024db3dc4cac9206c5ddd2c64939",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormNetworkApi",
+            "widgetId": "btnIsNetworkAvailable",
+            "propertyName": "skin",
+            "propertyValue": "cnfNetApi",
+            "itemKUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+            "widgetKUID": "babb418f519b4c5a9e325b4a4ff01fa1",
+            "skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+            "isSkinProperty": true,
+            "wType": "Button",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.btnIsNetworkAvailable"
+        }]
+    }
+}

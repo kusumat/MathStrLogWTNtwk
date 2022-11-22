@@ -1,0 +1,34 @@
+{
+    "AS_Form_j88934038265416d8fdf4959b51c3b84": {
+        "id": "AS_Form_j88934038265416d8fdf4959b51c3b84",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d1d92b4deb6d478faef5734b22f361a0",
+            "name": "FormLog"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__g4d55a78a4524eb08aeb7224fb89c4a9",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLog",
+            "widgetId": "lbConf",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "d1d92b4deb6d478faef5734b22f361a0",
+            "widgetKUID": "i10cc5a65d3740099914c28ceb156954",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.lbConf"
+        }]
+    }
+}

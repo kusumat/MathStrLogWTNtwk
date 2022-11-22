@@ -1,0 +1,45 @@
+{
+	"AS_Button_b8f134c2b10741368f9cade45998081f": {
+		"id": "AS_Button_b8f134c2b10741368f9cade45998081f",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+			"name": "FormNetworkApi"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_ide_onClick_cc1e9d4dfe374a7c9f5c3501535688e2",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "var httpinputparams1 = new kony.net.FormData();\nhttpinputparams1.set(\"httpKey\",\"Values added by set method\");\n//alert(\"Created form data and set params Data for param key 'httpKey' is : \"+httpinputparams1.get(\"httpKey\"));\nthis.view.LabelResult.text = \"Created form data and set params Data for param key 'httpKey' is : \"+httpinputparams1.get(\"httpKey\");\nthis.view.LabelOutput.text = httpinputparams1.get(\"httpKey\");",
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY___ee1ad27bb9a644baa78a0eb4ad08b0b6",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormNetworkApi",
+				"widgetId": "btnFormData",
+				"propertyName": "skin",
+				"propertyValue": "cnfNetApi",
+				"itemKUID": "a349b8e0b47b4038bdb2397d702f7a1d",
+				"widgetKUID": "e820895efa5342bcaf5b1d6b0c46dd94",
+				"skinKUID": "s0bc608cd7644bcba6cad987e32f8610",
+				"isSkinProperty": true,
+				"wType": "Button",
+				"currentTheme": "defaultTheme",
+				"forkedPlatform": "all",
+				"callbackType": null,
+				"widgetPath": "this.view.btnFormData"
+			}
+		]
+	}
+}

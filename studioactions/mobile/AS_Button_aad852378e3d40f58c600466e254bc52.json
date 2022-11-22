@@ -1,0 +1,40 @@
+{
+    "AS_Button_aad852378e3d40f58c600466e254bc52": {
+        "id": "AS_Button_aad852378e3d40f58c600466e254bc52",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_j9b71d3c18df421d83196ec02ed5a6df",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormHome",
+            "formKUID": "a74e3bbfe215455fbeb57911a35f2af7",
+            "projectName": "MathStrLogWTNtwk",
+            "mappings": {},
+            "mappingsOrder": [],
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__d71d777827f9482e817dea1c7da0d054",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLog",
+            "widgetId": "lbConf",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "d1d92b4deb6d478faef5734b22f361a0",
+            "widgetKUID": "i10cc5a65d3740099914c28ceb156954",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.lbConf"
+        }]
+    }
+}

@@ -1,0 +1,33 @@
+{
+	"AS_Button_b6321e8aff4b4a4b83333e50c6e06d1e": {
+		"id": "AS_Button_b6321e8aff4b4a4b83333e50c6e06d1e",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "e107753a01b742d8b0512d057b30028c"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM__ide_onClick_d69adf877b494fc7a819342f1c692f65",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "Form1",
+				"formKUID": "j6f97777c19a4bbfa4cc52e94ae108b9",
+				"mappings": {},
+				"mappingsOrder": [],
+				"callbackType": null,
+				"enableMappingEditor": true,
+				"package": "",
+				"navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnBack\"\n    }\n}",
+				"isCustomInput": false
+			}
+		]
+	}
+}
